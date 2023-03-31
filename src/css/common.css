@@ -81,11 +81,18 @@ button {
   flex-direction: column;
 }
 
+.item-card:hover > img {
+  transform: scale(1.04);
+  transition-duration: 300ms;
+}
+
 .item-thumbnail {
   border-radius: 8px;
   min-height: 330px;
   min-width: 220px;
   background-size: contain;
+  box-shadow: 0 10px 15px -3px rgba(222, 222, 222, 0.1),
+    0 4px 6px -4px rgba(134, 131, 131, 0.1);
 }
 
 .item-title {
